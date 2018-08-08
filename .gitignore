@@ -166,3 +166,10 @@ fabric.properties
 # Editor-based Rest Client
 .idea/httpRequests
 
+.idea/dataSources.xml
+.idea/inspectionProfiles/
+.idea/misc.xml
+.idea/modules.xml
+.idea/mysite.iml
+.idea/vagrant.xml
+.idea/vcs.xml
