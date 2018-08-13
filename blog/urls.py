@@ -19,4 +19,5 @@ urlpatterns = [
     path('<int:post_id>/share/', views.post_share, name='post_share'),
     path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
     path('feed/', LatestPostFeed(), name='post_feed'),
+    path('search/', views.post_search, name='post_search'),
 ]
